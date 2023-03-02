@@ -6,25 +6,25 @@
 
 	},
 	"tavern": {
-		"view": "tavernstreetview",
+		"view": "tavernview",
 		"description": "nice warm tavern for hearty drinks",
 		"near": ["highstreet", "church", "well"]
 
 	},
 	"church": {
-		"view": "churchstreetview",
+		"view": "churchview",
 		"description": "",
 		"near": ["highstreet", "graveyard", "tavern"]
 
 	},
 	"graveyard": {
-		"view": "graveyardstreetview",
+		"view": "graveyardview",
 		"description": "",
 		"near": ["church", "pond", "well"]
 
 	},
 	"pond": {
-		"view": "graveyardstreetview",
+		"view": "pondview",
 		"description": "",
 		"near": ["graveyard", "highstreet", "well"]
 
