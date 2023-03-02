@@ -4,11 +4,15 @@ const country = require('./data/countryData.json')
 
 const countryRouter = express.Router()
 
+countryRouter.get('/2/-1', (req, res) => {
+  res.redirect('/town/gate')
+})
+
 countryRouter.get('/:x/:y', (req, res) => {
-  const { x, y } = req.params
-  const place = country[+y][+x]
-  console.log(place)
-  res.render('country', { ...place, links: makeLinks(+x, +y) })
+  const x = Number(req.params.x)
+  const y = Number(req.params.y)
+  const place = country[y][x]
+  res.render('country', { ...place, links: makeLinks(x, y) })
 })
 
 module.exports = countryRouter

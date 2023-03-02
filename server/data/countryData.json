@@ -2,7 +2,8 @@
   [
     {
       "name":"Field",
-      "desc":"TODO",
+      "desc":"Golden grain waves in the wind.",
+      "img":"/field.jpg",
       "dirs":{
         "east":"More fields",
         "south":"A mill stands on a hill"
@@ -10,24 +11,68 @@
     },
     {
       "name":"Field",
-      "desc":"TODO",
+      "desc":"Golden grain waves in the wind.",
+      "img":"/field.jpg",
       "dirs":{
-        "east":"The road leds to town",
+        "east":"The road leads to town",
         "south":"That field has been harvested",
         "west":"Another field"
       }
     },
-    {},
+    {
+      "name":"Road",
+      "desc":"Just outside the town, the road leads south.\nThere is a large field of grain to the west.",
+      "img":"/road.jpg",
+      "dirs":{
+        "north":"Enter the town",
+        "east":"TODO",
+        "south":"The road continues",
+        "west":"Enter the field"
+      }
+    },
     {}
   ],
   [
-    {},
-    {},
-    {},
+    {
+      "name":"Windmill",
+      "desc":"The mill's sails go 'swoosh' as they swing by, gradually grinding grain.",
+      "img":"/windmill.jpg",
+      "dirs":{
+        "north":"Down the hill to a field of grain",
+        "east":"Down the hill to a harvested field",
+        "south":"A road leads up the hill past the mill"
+      }
+    },
+    {
+      "name":"Empty Field",
+      "desc":"This field has been harvested recently.\nStalks and chaff litter the ground.",
+      "img":"/emptyfield.jpg",
+      "dirs":{
+        "north":"That field hasn't been harvested yet",
+        "east":"A road goes past the field",
+        "south":"A slightly smaller road",
+        "west":"A mill stands on a hill"
+      }
+    },
+    {
+      "name":"Road",
+      "desc":"You stand in the middle of a road that leads north and south.\nThe town is just visible far to the north.\nThere is a junction to the south.",
+      "img":"/road.jpg",
+      "dirs":{
+        "north":"Head towards the town",
+        "east":"TODO",
+        "south":"Go to the junction",
+        "west":"A recently harvested field"
+      }
+    },
     {}
   ],
   [
-    {},
+    {
+      "name":"Hill Road",
+      "desc":"Your breathing gets heavier as the road heads uphill.",
+      "img":"/steeproad.jpg"
+    },
     {},
     {},
     {}
