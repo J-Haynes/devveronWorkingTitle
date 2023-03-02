@@ -19,7 +19,7 @@ server.set('views', __dirname + '/views')
 const testMessage = 'HELLO THERE!'
 
 server.get('/', (req, res) => {
-  res.send(testMessage)
+  res.render('home')
 })
 
 // Export !
