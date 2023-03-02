@@ -23,6 +23,10 @@ server.get('/', (req, res) => {
   res.render('home', townData)
 })
 
+server.get('/town', (req, res) => {
+  res.render('townview', townData)
+})
+
 // Export !
 
 module.exports = server

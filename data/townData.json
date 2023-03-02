@@ -1,33 +1,41 @@
-{
-	"highstreet": {
+{ "locations": [
+	{ 
+    "id": 1,
+    "name": "High Street",
 		"view": "highstreetview",
 		"description": "street, so high",
 		"near": ["sidestreet", "tavern", "well"]
-
-	},
-	"tavern": {
+  },
+	{
+    "id": 2,
+    "name": "Tavern",
 		"view": "tavernview",
 		"description": "nice warm tavern for hearty drinks",
 		"near": ["highstreet", "church", "well"]
 
 	},
-	"church": {
+  {
+    "id": 3,
+    "name": "Church",
 		"view": "churchview",
-		"description": "",
+		"description": "praise the lord",
 		"near": ["highstreet", "graveyard", "tavern"]
 
 	},
-	"graveyard": {
+  {
+    "id": 4,
+    "name": "Graveyard",
 		"view": "graveyardview",
 		"description": "",
 		"near": ["church", "pond", "well"]
 
 	},
-	"pond": {
+  {
+    "id": 5,
+    "name": "Pond",
 		"view": "pondview",
-		"description": "",
+		"description": "lots of shiny fishies",
 		"near": ["graveyard", "highstreet", "well"]
-
 	}
-
-}
+  ]
+  }
