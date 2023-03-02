@@ -1,0 +1,41 @@
+[
+  [
+    {
+      "name":"Field",
+      "desc":"TODO",
+      "dirs":{
+        "east":"More fields",
+        "south":"A mill stands on a hill"
+      }
+    },
+    {
+      "name":"Field",
+      "desc":"TODO",
+      "dirs":{
+        "east":"The road leds to town",
+        "south":"That field has been harvested",
+        "west":"Another field"
+      }
+    },
+    {},
+    {}
+  ],
+  [
+    {},
+    {},
+    {},
+    {}
+  ],
+  [
+    {},
+    {},
+    {},
+    {}
+  ],
+  [
+    {},
+    {},
+    {},
+    {}
+  ]
+]
