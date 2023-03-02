@@ -3,7 +3,7 @@ const hbs = require('express-handlebars')
 const server = express()
 const townData = require('./data/townData.json')
 
-// const townRouter = require('./townRouter')
+const townRouter = require('./townRouter')
 const countryRouter = require('./countryRouter')
 
 // Server config
@@ -22,6 +22,8 @@ const testMessage = 'HELLO THERE!'
 server.get('/', (req, res) => {
   res.render('home', townData)
 })
+
+server.use('/town', townRouter)
 
 server.get('/town', (req, res) => {
   res.render('townview', townData)

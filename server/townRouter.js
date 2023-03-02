@@ -1,20 +1,12 @@
 const express = require('express')
 
-const router = express.Router()
+const townRouter = express.Router()
 
-const townData = require('./data/townData.json')
+// const townData = require('../data/townData.json')
 
-
-//we need some sort of array to hold gamestate
-let gameState = []
-
-townRouter.get('/town/:id', (req, res) => {
-
-  const id
-
-  //starting point for game
-
-  req.params
+townRouter.get('/:id', (req, res) => {
+  const currentTown = req.params.id
+  res.send('current location' + currentTown)
 })
 
-module.exports = router
+module.exports = townRouter
