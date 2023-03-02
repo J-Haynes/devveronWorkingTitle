@@ -4,18 +4,33 @@
   "description": "First Friday Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/index",
+    "dev": "nodemon server/index --ignore */data.json",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "test": "jest --watchAll",
+    "format": "prettier -w '**/*.{js,jsx,ts,tsx}'"
   },
+  "homepage": "https://github.com/dev-academy-challenges/pupparazzi#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kahu-2023/devveronWorkingTitle.git"
+    "url": "git+https://github.com/dev-academy-challenges/pupparazzi.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kahu-2023/devveronWorkingTitle/issues"
+    "url": "https://github.com/dev-academy-challenges/pupparazzi/issues"
   },
-  "homepage": "https://github.com/kahu-2023/devveronWorkingTitle#readme",
+  "eslintConfig": {
+    "extends": "@devacademy"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "watchPathIgnorePatterns": [
+      "data.json"
+    ]
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2"
+  },
   "devDependencies": {
     "@testing-library/dom": "^8.17.1",
     "@testing-library/jest-dom": "^5.16.5",
