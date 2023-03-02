@@ -10,13 +10,13 @@
     "test": "jest --watchAll",
     "format": "prettier -w '**/*.{js,jsx,ts,tsx}'"
   },
-  "homepage": "https://github.com/dev-academy-challenges/pupparazzi#readme",
+  "homepage": "https://github.com/kahu-2023/devveronWorkingTitle.git",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dev-academy-challenges/pupparazzi.git"
+    "url": "git@github.com:kahu-2023/devveronWorkingTitle.git"
   },
   "bugs": {
-    "url": "https://github.com/dev-academy-challenges/pupparazzi/issues"
+    "url": "https://github.com/kahu-2023/devveronWorkingTitle.git"
   },
   "eslintConfig": {
     "extends": "@devacademy"
