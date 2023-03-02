@@ -1,31 +1,31 @@
 {
 	"highstreet": {
 		"view": "highstreetview",
-		"description": "",
+		"description": "the main street of town filled with all sorts of wares and shops for the hearty traveller",
 		"near": ["sidestreet", "tavern", "well"]
 
 	},
 	"tavern": {
 		"view": "tavernview",
-		"description": "nice warm tavern for hearty drinks",
+		"description": "nice warm tavern for the best meads",
 		"near": ["highstreet", "church", "well"]
 
 	},
 	"church": {
 		"view": "churchview",
-		"description": "",
+		"description": "h",
 		"near": ["highstreet", "graveyard", "tavern"]
 
 	},
 	"graveyard": {
 		"view": "graveyardview",
-		"description": "",
+		"description": "spooky graveyard! Do not stay here at night",
 		"near": ["church", "pond", "well"]
 
 	},
 	"pond": {
 		"view": "pondview",
-		"description": "",
+		"description": "pond which houses frogs and gentle waters that revitalizes those who bathe in it",
 		"near": ["graveyard", "highstreet", "well"]
 
 	}
