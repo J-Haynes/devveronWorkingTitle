@@ -4,7 +4,7 @@ const server = express()
 const townData = require('../data/townData.json')
 
 // const townRouter = require('./townRouter')
-// const townRouter = require('./countryRouter') < --- assuming the names of these routers
+const countryRouter = require('./countryRouter')
 
 // Server config
 
@@ -23,9 +23,13 @@ server.get('/', (req, res) => {
   res.render('home', townData)
 })
 
+<<<<<<< HEAD
 server.get('/town', (req, res) => {
   res.render('townview', townData)
 })
+=======
+server.use('/country', countryRouter)
+>>>>>>> 434b469fe7100ac1fc9bb6dfbf284bf34919d5c7
 
 // Export !
 

@@ -1,0 +1,21 @@
+#frame {
+  display: grid;
+  grid-template-areas: 
+    '. north .'
+    'west details east'
+    '. south .';
+  grid-template-rows: 10% 80% 10%;
+  grid-template-columns: 10% 80% 10%;
+  width: 100%;
+  height: 100%;
+}
+
+main {grid-area: details;}
+
+#north {grid-area: north;}
+
+#south {grid-area: south;}
+
+#east {grid-area: east;}
+
+#west {grid-area: west;}
