@@ -1,1 +1,13 @@
-{{#each locations}} <p>Come on down to the {{this.name}} and see the {{this.near}}! It is {{this.description}}</p> {{/each}}
+{{!-- {{#each locations}} <p>Welcome to the {{this.name}} and see the {{this.near}}! It is {{this.description}}</p> {{/each}} --}}
+
+<p>> You are in the {{name}}</p>
+
+> {{description}}
+
+
+<p>the locations near you are: </p>
+
+<ul>
+{{#each near}}
+<li>{{this}}</li>
+{{/each}}

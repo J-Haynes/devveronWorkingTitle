@@ -1,13 +1,13 @@
 { "locations": [
 	{ 
-    "id": 1,
+    "id": 0,
     "name": "High Street",
 		"view": "highstreetview",
 		"description": "the main street of town filled with all sorts of wares and shops for the hearty traveller",
 		"near": ["sidestreet", "tavern", "well"]
   },
 	{
-    "id": 2,
+    "id": 1,
     "name": "Tavern",
 		"view": "tavernview",
 		"description": "nice warm tavern for the best meads",
@@ -15,7 +15,7 @@
 
 	},
   {
-    "id": 3,
+    "id": 2,
     "name": "Church",
 		"view": "churchview",
 		"description": "praise the lord",
@@ -23,7 +23,7 @@
 
 	},
   {
-    "id": 4,
+    "id": 3,
     "name": "Graveyard",
 		"view": "graveyardview",
 		"description": "spooky graveyard! Do not stay here at night",
@@ -31,7 +31,7 @@
 
 	},
   {
-    "id": 5,
+    "id": 4,
     "name": "Pond",
 		"view": "pondview",
 		"description": "pond which houses frogs and gentle waters that revitalizes those who bathe in it",

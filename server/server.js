@@ -20,7 +20,7 @@ server.set('views', __dirname + '/views')
 const testMessage = 'HELLO THERE!'
 
 server.get('/', (req, res) => {
-  res.render('home', townData)
+  res.render('home')
 })
 
 server.use('/town', townRouter)
