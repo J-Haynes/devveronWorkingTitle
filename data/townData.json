@@ -24,7 +24,7 @@
 
   },
   "pond": {
-    "view": "graveyardstreetview",
+    "view": "pondstreetview",
     "description": "",
     "near": ["graveyard", "highstreet", "well"]
 
