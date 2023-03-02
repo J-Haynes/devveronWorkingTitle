@@ -1,7 +1,11 @@
 {
 	"highstreet": {
 		"view": "highstreetview",
+<<<<<<< HEAD
 		"description": "the main street of town filled with all sorts of wares and shops for the hearty traveller",
+=======
+		"description": "street, so high",
+>>>>>>> d4afe9148d59da89b167ff6c8166502003d661af
 		"near": ["sidestreet", "tavern", "well"]
 
 	},
