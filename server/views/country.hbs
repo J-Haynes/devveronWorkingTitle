@@ -1,0 +1,38 @@
+<div class="frame">
+  <main>
+    <h2>{{name}}</h2>
+    <p>{{desc}}</p>
+  </main>
+  {{#if dirs.north}}
+  <nav id="north">
+    <a href="/country{{links.north}}">
+      <p><strong>North</strong></p>
+      <p>{{dirs.north}}</p>
+    </a>
+  </nav>
+  {{/if}}
+  {{#if dirs.south}}
+  <nav id="south">
+    <a href="/country{{links.south}}">
+      <p><strong>South</strong></p>
+      <p>{{dirs.south}}</p>
+    </a>
+  </nav>
+  {{/if}}
+  {{#if dirs.east}}
+  <nav id="east">
+    <a href="/country{{links.east}}">
+      <p><strong>East</strong></p>
+      <p>{{dirs.east}}</p>
+    </a>
+  </nav>
+  {{/if}}
+  {{#if dirs.west}}
+  <nav id="west">
+    <a href="/country{{links.west}}">
+      <p><strong>West</strong></p>
+      <p>{{dirs.west}}</p>
+    </a>
+  </nav>
+  {{/if}}
+</div>
