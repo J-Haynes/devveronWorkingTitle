@@ -1,7 +1,7 @@
 {
 	"highstreet": {
 		"view": "highstreetview",
-		"description": "",
+		"description": "street, so high",
 		"near": ["sidestreet", "tavern", "well"]
 
 	},
