@@ -5,9 +5,10 @@
 > {{description}}
 
 
-<p>the locations near you are: </p>
-
+<p>what do you want to do: </p>
+{{!-- <img id="location-image" src="{{image}}"> --}}
 <ul>
 {{#each near}}
-<li>{{this}}</li>
+<li><a href="{{path}}">{{text}}</a></li>
 {{/each}}
+</ul>

@@ -1,41 +1,54 @@
-{ "locations": [
-	{ 
-    "id": 0,
+{
+	"highstreet":{ 
     "name": "High Street",
-		"view": "highstreetview",
-		"description": "the main street of town filled with all sorts of wares and shops for the hearty traveller",
-		"near": ["sidestreet", "tavern", "well"]
+		"description": "The main street of town filled with all sorts of wares and shops for the hearty traveller.",
+		"near": [
+      {"path":"/town/sidestreet",
+      "text":"Duck into an alley to avoid the crowd."}, 
+      {"path" : "/town/tavern",
+       "text": "You hear people cheering and singing in jolly tones. You step in through the bar to scope out the finest mead."},
+      {"path" : "/town/well",
+        "text": "You look into the well and see the reflection of a tired and weary traveller in the water. Unfortunately the water here is no magic elixir."}]
   },
-	{
-    "id": 1,
+	"tavern":{
     "name": "Tavern",
-		"view": "tavernview",
 		"description": "nice warm tavern for the best meads",
-		"near": ["highstreet", "church", "well"]
-
+    "near": [
+      {"path":"/town/highstreet",
+      "text":"The main street of town filled with all sorts of wares and shops for the hearty traveller."}, 
+      {"path" : "/town/church",
+       "text": "You have been sinning at a higher rate than ever lately. Maybe you should step into the church to atone for your sins."},
+      {"path" : "/town/well",
+        "text": "You feel a coin in your pocket and try and find the nearest well to wish for better days."}]
 	},
-  {
-    "id": 2,
+  "church":{
     "name": "Church",
-		"view": "churchview",
 		"description": "praise the lord",
-		"near": ["highstreet", "graveyard", "tavern"]
+    "near": [
+      {"path":"/town/highstreet",
+      "text":"The sombre atmosphere of the church creeps you out, you decide to return to High Street"}, 
+      {"path" : "/town/graveyard",
+       "text": "You feel darkness start to consume you. You decide to explore the graveyard outside"},
+      {"path" : "/town/tavern",
+        "text": "The church wine leaves a horrible taste in your time, time for a beer!"}]
 
 	},
-  {
-    "id": 3,
+  "graveyard":{
     "name": "Graveyard",
-		"view": "graveyardview",
 		"description": "spooky graveyard! Do not stay here at night",
-		"near": ["church", "pond", "well"]
+    "near": [
+      {"path":"/town/church",
+      "text":"This graveyard is too spooky! You need to find god."}, 
+      {"path" : "/town/highstreet",
+       "text": "The dead aren't such good company, you decide to return to the lively High Street"},
+      {"path" : "/town/well",
+        "text": "The church wine leaves a horrible taste in your time, time for a beer!"}]
 
 	},
-  {
-    "id": 4,
-    "name": "Pond",
-		"view": "pondview",
+  "well":{
+    "name": "Well",
 		"description": "pond which houses frogs and gentle waters that revitalizes those who bathe in it",
 		"near": ["graveyard", "highstreet", "well"]
 	}
-  ]
+  
   }

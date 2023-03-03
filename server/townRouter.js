@@ -4,13 +4,13 @@ const townRouter = express.Router()
 
 const townData = require('./data/townData.json')
 
-townRouter.get('/:id', (req, res) => {
-  const id = req.params.id
-  const townName = townData.locations[id]
-  console.log(townName)
+townRouter.get('/:loc', (req, res) => {
+  const loc = req.params.loc
+  const location = townData[loc]
+  console.log(location)
 
-  // res.send('You are in: ' + townName)
-  res.render('townview', townName)
+  // res.send('You are in: ' + location)
+  res.render('townview', location)
 })
 
 module.exports = townRouter
