@@ -8,18 +8,21 @@
       {"path" : "/town/tavern",
        "text": "You hear people cheering and singing in jolly tones. You step in through the bar to scope out the finest mead."},
       {"path" : "/town/well",
-        "text": "You look into the well and see the reflection of a tired and weary traveller in the water. Unfortunately the water here is no magic elixir."}]
+        "text": "You look into the well and see the reflection of a tired and weary traveller in the water. Unfortunately the water here is no magic elixir."},
+        {"path" : "/town/gate",
+        "text": "You notice behind you is the pearly gates that you entered through!"}
+      ]
   },
 	"tavern":{
     "name": "Tavern",
-		"description": "nice warm tavern for the best meads",
+		"description": "A nice warm tavern for the best meads",
     "near": [
       {"path":"/town/highstreet",
-      "text":"The main street of town filled with all sorts of wares and shops for the hearty traveller."}, 
+      "text":"The main street of town is filled with all sorts of wares and shops for the hearty traveller. You check it out!"}, 
       {"path" : "/town/church",
        "text": "You have been sinning at a higher rate than ever lately. Maybe you should step into the church to atone for your sins."},
       {"path" : "/town/well",
-        "text": "You feel a coin in your pocket and try and find the nearest well to wish for better days."}]
+        "text": "You feel a coin in your pocket, and spot a well nearby to wish for better days."}]
 	},
   "church":{
     "name": "Church",
@@ -47,21 +50,32 @@
 	},
   "well":{
     "name": "Well",
-		"description": "Legend has it a small child fell to their demise in the Well and sometimes comes out at night to greet fellow travellers",
+		"description": "Legend has it a small child fell into the Well but the body was never found...",
 	
     "near": [
       {"path":"/town/graveyard",
-      "text":"You are creeped by the dark abyss of nothingness in the well and turn to find solace in the graveyard."}, 
+      "text":"You are creeped out by the dark abyss of nothingness in the well and turn to find solace in the graveyard."}, 
       {"path" : "/town/highstreet",
        "text": "The highstreet calls your name loudly with the promise of life and laughter."},
       {"path" : "/town/tavern",
-        "text": "The church wine leaves a horrible taste in your time, time for a beer!"},
+        "text": "You have a horrible taste in your mouth, time for a beer!"},
+        {"path" : "/town/gate",
+        "text": "You spy the town gates in the corner of your eye..."}
       
-      {
-        "path" :"/country/2/0",
-        "text": "Head on the road out of town"
-      }]
+      ]
         
-	}
+	},
+  "gate": {
+    "name": "Gate",
+    "description": "Pearly gates with the pleasant views of the countryside call yonder...",
+    "near": [
+      {"path": "/country/2/0",
+       "text": "Strike forth on the road out of town and into the Country! "},
+       {"path": "/town/well",
+         "text": "You are frightened by the thought of leaving the bustling town, so you head back to the well..."},
+        {"path": "/town/highstreet",
+         "text": "Adjacent to the gate is the call of Highstreet beckoning!"} 
+    ]
+  }
   
   }
