@@ -30,7 +30,15 @@
         "west":"Enter the field"
       }
     },
-    {}
+    {
+      "name":"Meadow",
+      "desc":"A grassy meadow with a group of people practicing archery.",
+      "img":"/archery.jpg",
+      "dirs":{
+        "south":"The meadow gradually becomes a forest",
+        "west":"The road leads to town"
+      }
+    }
   ],
   [
     {
@@ -60,12 +68,21 @@
       "img":"/road.jpg",
       "dirs":{
         "north":"Head towards the town",
-        "east":"TODO",
+        "east":"Head into the forest",
         "south":"Go to the junction",
         "west":"A recently harvested field"
       }
     },
-    {}
+    {
+      "name":"Forest",
+      "desc":"Sunlight trickles in between the trees.",
+      "img":"/forestedge.jpg",
+      "dirs":{
+        "north":"The forest peters out into a meadow",
+        "south":"The forest gets denser",
+        "west":"You can just glimpse the road through the trees"
+      }
+    }
   ],
   [
     {
@@ -91,14 +108,64 @@
     },
     {
       "name":"Junction",
-      "desc":"A smaller road splits off to the west, leading to a hill in the distance."
+      "desc":"A smaller road splits off to the west, leading to a hill in the distance.",
+      "img":"/junction.jpg",
+      "dirs":{
+        "north":"Head north on the main road",
+        "east":"Is that a path into the forest?",
+        "south":"Head south on the main road",
+        "west":"Take the side road towards the hill"
+      }
     },
-    {}
+    {
+      "name":"Abandoned Hut",
+      "desc":"You find a faint path that leads to a decrepit hut, with hints of what used to be a herb garden outside.",
+      "img":"/foresthut.jpg",
+      "dirs":{
+        "north":"The forest appears to thin out",
+        "south":"More forest",
+        "west":"The faint path leads out of the forest"
+      }
+    }
   ],
   [
-    {},
-    {},
-    {},
-    {}
+    {
+      "name":"Hillside",
+      "desc":"A shepherd watches his flock as they graze.\nHe gives you an amicable nod.",
+      "img":"/sheep.jpg",
+      "dirs":{
+        "north":"A road climbs the hill",
+        "east":"There is a pond at the base of the hill"
+      }
+    },
+    {
+      "name":"Pond",
+      "desc":"A large pond sits between the road and a hill.\nA solitary sheep sips slowly.",
+      "img":"/pond.jpg",
+      "dirs":{
+        "north":"A track leads from the road to the hill",
+        "east":"There is a caravan of merchants on the road",
+        "west":"There are some more sheep on the hill"
+      }
+    },
+    {
+      "name":"Traveling Merchants",
+      "desc":"A group of merchants are heading to the town in the north with their wares.",
+      "img":"/merchants.jpg",
+      "dirs":{
+        "north":"There is a junction ahead",
+        "east":"The forest is deep and dark",
+        "west":"There is a pond beside the road"
+      }
+    },
+    {
+      "name":"Forest",
+      "desc":"Leaves crunch underfoot as you wind your way between the trees.",
+      "img":"/forest.jpg",
+      "dirs":{
+        "north":"More forest",
+        "west":"The forest seems to come to an end"
+      }
+    }
   ]
 ]
