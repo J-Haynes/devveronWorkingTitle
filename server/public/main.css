@@ -19,7 +19,32 @@ html, body {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: #F7BFB4;
+}
 
+a:hover {
+  color: #B4ECF7
+}
+
+.city-span {
+  font-weight: bolder;
+  color: #F7BFB4;
+}
+
+ul {
+  list-style-type: disclosure-closed;
+}
+
+li:hover {
+  list-style-type: disclosure-open;
+}
+
+li {
+  padding-top:15px;
+  padding-bottom: 5px;
+}
 
 header {
   color: #D4B483;
@@ -75,9 +100,26 @@ header {
   color: #774936;
   font-weight: bold;
 }
-/* 
-#location-image {
+
+#image-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#image-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-} */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#location-image {
+  opacity: 25%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
