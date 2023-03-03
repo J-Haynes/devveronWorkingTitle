@@ -30,23 +30,23 @@
 		"description": "praise the lord",
     "near": [
       {"path":"/town/highstreet",
-      "text":"The sombre atmosphere of the church creeps you out, you decide to return to High Street"}, 
+      "text":"The sombre atmosphere of the church creeps you out, you decide to return to High Street."}, 
       {"path" : "/town/graveyard",
-       "text": "You feel darkness start to consume you. You decide to explore the graveyard outside"},
+       "text": "You feel darkness start to consume you. You decide to explore the graveyard outside."},
       {"path" : "/town/tavern",
         "text": "The church wine leaves a horrible taste in your time, time for a beer!"}]
 
 	},
   "graveyard":{
     "name": "Graveyard",
-		"description": "spooky graveyard! Do not stay here at night",
+		"description": "Spooky graveyard! Do not stay here at night",
     "near": [
       {"path":"/town/church",
       "text":"This graveyard is too spooky! You need to find god."}, 
       {"path" : "/town/highstreet",
-       "text": "The dead aren't such good company, you decide to return to the lively High Street"},
+       "text": "The dead aren't such good company, you decide to return to the lively High Street."},
       {"path" : "/town/well",
-        "text": "The church wine leaves a horrible taste in your time, time for a beer!"}]
+        "text": "You see a gate through the graveyard that leads you down a path to a well."}]
 
 	},
   "well":{
