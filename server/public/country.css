@@ -15,7 +15,21 @@ main {
   grid-area: details;
   display: flex;
   flex-direction: column;
-  flex-shrink: 1;
+  height: 100%;
+}
+
+main * {
+  flex-shrink: 0;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+main img {
+  flex-shrink: 100;
+  margin: 0;
+  max-width: 100%;
+  max-height: 50%;
+  object-fit: contain;
 }
 
 #north {grid-area: north;}

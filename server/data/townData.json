@@ -77,6 +77,13 @@
         {"path": "/town/highstreet",
          "text": "Adjacent to the gate is the call of Highstreet beckoning!"} 
     ]
+  },
+  "sidestreet":{
+    "name":"Alley",
+    "description":"A dark, cramped alley, turns out there's nothing here.",
+    "near":[{
+      "path":"/town/highstreet",
+      "text":"Go back."
+    }]
   }
-  
-  }
+}
