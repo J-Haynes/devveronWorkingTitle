@@ -25,7 +25,7 @@
       "img":"/road.jpg",
       "dirs":{
         "north":"Enter the town",
-        "east":"TODO",
+        "east":"A meadow with archery targets",
         "south":"The road continues",
         "west":"Enter the field"
       }
