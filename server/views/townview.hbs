@@ -1,9 +1,10 @@
 {{!-- {{#each locations}} <p>Welcome to the {{this.name}} and see the {{this.near}}! It is {{this.description}}</p> {{/each}} --}}
-
+<section id="image-container">
+  <img id="location-image" src="{{image}}">
+  <section id="text-container">
 <p>> You are in the {{name}}</p>
 
 > {{description}}
-
 
 <p>what do you want to do: </p>
 {{!-- <img id="location-image" src="{{image}}"> --}}
@@ -12,3 +13,5 @@
 <li><a href="{{path}}">{{text}}</a></li>
 {{/each}}
 </ul>
+</section>
+</section>

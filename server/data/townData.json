@@ -13,6 +13,7 @@
 	"tavern":{
     "name": "Tavern",
 		"description": "nice warm tavern for the best meads",
+    "image": "/tavern.jpg",
     "near": [
       {"path":"/town/highstreet",
       "text":"The main street of town filled with all sorts of wares and shops for the hearty traveller."}, 
