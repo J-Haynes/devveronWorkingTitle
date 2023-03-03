@@ -71,10 +71,28 @@
     {
       "name":"Hill Road",
       "desc":"Your breathing gets heavier as the road heads uphill.",
-      "img":"/steeproad.jpg"
+      "img":"/steeproad.jpg",
+      "dirs":{
+        "north":"A mill looks out over fields below",
+        "east":"The road continues away from the hill",
+        "south":"Sheep are grazing on the hillside"
+      }
     },
-    {},
-    {},
+    {
+      "name":"Road",
+      "desc":"A small road goes leads from a junction in the east to a hill in the west.",
+      "img":"/road.jpg",
+      "dirs":{
+        "north":"A recently harvested field",
+        "east":"The main road is this way",
+        "south":"A charming pond",
+        "west":"Head up the hill"
+      }
+    },
+    {
+      "name":"Junction",
+      "desc":"A smaller road splits off to the west, leading to a hill in the distance."
+    },
     {}
   ],
   [

@@ -12,7 +12,9 @@ countryRouter.get('/:x/:y', (req, res) => {
   const x = Number(req.params.x)
   const y = Number(req.params.y)
   const place = country[y][x]
-  res.render('country', { ...place, links: makeLinks(x, y) })
+  console.log(place)
+  place.links = makeLinks(x, y)
+  res.render('country', { stylesheets: ['/country.css'], place })
 })
 
 module.exports = countryRouter
