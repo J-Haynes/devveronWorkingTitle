@@ -47,8 +47,21 @@
 	},
   "well":{
     "name": "Well",
-		"description": "pond which houses frogs and gentle waters that revitalizes those who bathe in it",
-		"near": ["graveyard", "highstreet", "well"]
+		"description": "Legend has it a small child fell to their demise in the Well and sometimes comes out at night to greet fellow travellers",
+	
+    "near": [
+      {"path":"/town/graveyard",
+      "text":"You are creeped by the dark abyss of nothingness in the well and turn to find solace in the graveyard."}, 
+      {"path" : "/town/highstreet",
+       "text": "The highstreet calls your name loudly with the promise of life and laughter."},
+      {"path" : "/town/tavern",
+        "text": "The church wine leaves a horrible taste in your time, time for a beer!"},
+      
+      {
+        "path" :"/country/2/0",
+        "text": "Head on the road out of town"
+      }]
+        
 	}
   
   }
